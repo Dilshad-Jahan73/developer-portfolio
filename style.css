@@ -5,13 +5,16 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .pic-color{
     color: orangered;
 }
-section
+.felxible-container
 {
     display: flex;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 .half-width
 {
@@ -37,4 +40,19 @@ section
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.oranged{
+    color: orange;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    width:40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow:10px 10px 10px gray ;
 }
